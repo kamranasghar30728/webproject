@@ -22,7 +22,7 @@ app.get('/weather',(req,res)=>{
 })
 app.get('*',(req,res)=>{
     res.render("error404.hbs",{
-               errMsg:"oops i love u"            
+               errMsg:"oops i  am error 404"            
     })
 })
 
